@@ -10,7 +10,8 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
+
   display: flex;
   justify-content: space-between; //it works on main axis
   align-items: center; //it works on vertical axis or cross axis
@@ -30,7 +31,7 @@
 
 .hotel-view {
   background-color: #fff;
-  background-color: orangered;
+
   flex: 1; //it grows overal available space
   //TEST
   height: 80rem;
